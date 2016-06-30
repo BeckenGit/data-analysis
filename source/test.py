@@ -21,4 +21,6 @@ def top_counts(count_dict, n=10):
     return value_key_pairs[-n:]
 
 top_counts(counts)
-print(top_counts(counts))
+
+from pandas import DataFrame, Series
+import pandas as pd
